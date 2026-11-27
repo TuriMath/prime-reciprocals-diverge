@@ -1,0 +1,14 @@
+{
+  "slug": "PrimeReciprocalsDiverge",
+  "issue": "TuriMath/prime-reciprocals-diverge#1",
+  "tier": 1,
+  "source": "Wikipedia, Divergence of the sum of the reciprocals of the primes; Wiedijk 100 #81",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["not_summable_one_div_on_primes", "summable_of_sum_range_le", "Finset.sum_filter", "Finset.sum_le_sum_of_subset_of_nonneg"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof reduces to Mathlib's not_summable_one_div_on_primes (the same theorem in Summable form); the work is converting Summable to the partial-sum divergence statement. It does not reprove divergence from more basic lemmas, so as a calibration it is weaker than intended."
+}
