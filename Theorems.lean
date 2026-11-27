@@ -1,1 +1,3 @@
--- Every file under Theorems/ must be imported here, or `lake build` skips it (the gate checks this).
+import Theorems.PrimeReciprocalsDiverge.A
+import Theorems.PrimeReciprocalsDiverge.B
+import Theorems.PrimeReciprocalsDiverge.Equiv
