@@ -1,3 +1,4 @@
 import Theorems.PrimeReciprocalsDiverge.A
 import Theorems.PrimeReciprocalsDiverge.B
 import Theorems.PrimeReciprocalsDiverge.Equiv
+import Theorems.PrimeReciprocalsDiverge.Proof
